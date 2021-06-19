@@ -5,6 +5,7 @@ class Post extends Component {
 		return (
 			<div>
 				<h1>this is post component</h1>
+				{new Date().toLocaleString()}
 			</div>
 		);
 	}
