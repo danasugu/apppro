@@ -15,6 +15,10 @@ class Post extends Component {
 		console.log(e.target, e.pageX);
 	};
 
+	handleCopy = (e) => {
+		console.log('The paragraph has been copied');
+	};
+
 	render() {
 		return (
 			<div>
@@ -25,7 +29,7 @@ class Post extends Component {
 				<p>Skills: {this.state.skills.join(', ')}</p>
 				<button onClick={this.handleClick}>Click</button>
 				<button onMouseOver={this.handleMouseOver}>Mouse Over</button>
-				<p>This is a test para</p>
+				<p onCopy={this.handleCopy}>This is a test paragraph</p>
 			</div>
 		);
 	}
