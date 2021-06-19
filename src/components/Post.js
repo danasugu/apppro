@@ -6,6 +6,11 @@ class Post extends Component {
 		age: '25',
 		skills: [ 'React', 'Javascript', 'HTML', 'Laravel' ]
 	};
+
+	handleClick = (e) => {
+		console.log(this.state);
+	};
+
 	render() {
 		return (
 			<div>
@@ -14,6 +19,7 @@ class Post extends Component {
 				<p>Name: {this.state.name}</p>
 				<p>Age: {this.state.age}</p>
 				<p>Skills: {this.state.skills.join(', ')}</p>
+				<button onClick={this.handleClick}>Click</button>
 			</div>
 		);
 	}
