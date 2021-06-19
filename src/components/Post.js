@@ -11,6 +11,10 @@ class Post extends Component {
 		console.log(this.state);
 	};
 
+	handleMouseOver = (e) => {
+		console.log(e.target, e.pageX);
+	};
+
 	render() {
 		return (
 			<div>
@@ -20,6 +24,8 @@ class Post extends Component {
 				<p>Age: {this.state.age}</p>
 				<p>Skills: {this.state.skills.join(', ')}</p>
 				<button onClick={this.handleClick}>Click</button>
+				<button onMouseOver={this.handleMouseOver}>Mouse Over</button>
+				<p>This is a test para</p>
 			</div>
 		);
 	}
