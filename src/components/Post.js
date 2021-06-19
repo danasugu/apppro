@@ -19,6 +19,14 @@ class Post extends Component {
 		console.log('The paragraph has been copied');
 	};
 
+	handleChangeState = (e) => {
+		this.setState({
+			name: 'Alison',
+			age: 19,
+			skills: [ 'PHP', 'Java', 'Node.js' ]
+		});
+	};
+
 	render() {
 		return (
 			<div>
@@ -30,6 +38,7 @@ class Post extends Component {
 				<button onClick={this.handleClick}>Click</button>
 				<button onMouseOver={this.handleMouseOver}>Mouse Over</button>
 				<p onCopy={this.handleCopy}>This is a test paragraph</p>
+				<button onClick={this.handleChangeState}>Change state</button>
 			</div>
 		);
 	}
