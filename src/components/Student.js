@@ -6,8 +6,8 @@ class Student extends Component {
 		return (
 			<div>
 				<h1>Student Details</h1>
-				<p>Name: DS</p>
-				<p>Email: ds@ds.com</p>
+				<p>Name: Mario</p>
+				<p>Email: mario@mario.com</p>
 				<p>Phone: 0987654321</p>
 			</div>
 		);
