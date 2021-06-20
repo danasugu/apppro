@@ -1,6 +1,6 @@
 // import { getDefaultNormalizer } from '@testing-library/react';
 import React, { Component } from 'react';
-import Student from './components/Student';
+import Student from './Student';
 
 class Post extends Component {
 	state = {
@@ -73,6 +73,8 @@ class Post extends Component {
 					<br />
 					<button type='submit'>Submit</button>
 				</form>
+				<br />
+				<Student />
 			</div>
 		);
 	}
