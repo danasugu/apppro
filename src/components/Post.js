@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Post extends Component {
 	state = {
 		name   : 'Mario',
-		email  : 'mario@gmail.com',
+		email  : '',
 		phone  : '',
 		age    : '25',
 		skills : [
@@ -65,9 +65,9 @@ class Post extends Component {
 				<p onCopy={this.handleCopy}>This is a test paragraph</p>
 				<button onClick={this.handleChangeState}>Change state</button>
 				<form onSubmit={this.handleSubmit}>
-					<input type='text' name='name' onChange={this.handleChange} />
-					<input type='email' name='email' onChange={this.handleChange} />
-					<input type='phone' name='phone' onChange={this.handleChange} />
+					Name: <input type='text' name='name' onChange={this.handleChange} /> <br />
+					Email: <input type='email' name='email' onChange={this.handleChange} /><br />
+					Phone: <input type='phone' name='phone' onChange={this.handleChange} /><br />
 					<button type='submit'>Submit</button>
 				</form>
 			</div>
