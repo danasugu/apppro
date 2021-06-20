@@ -1,4 +1,4 @@
-import { getDefaultNormalizer } from '@testing-library/react';
+// import { getDefaultNormalizer } from '@testing-library/react';
 import React, { Component } from 'react';
 
 class Post extends Component {
@@ -66,8 +66,10 @@ class Post extends Component {
 				<button onClick={this.handleChangeState}>Change state</button>
 				<form onSubmit={this.handleSubmit}>
 					Name: <input type='text' name='name' onChange={this.handleChange} /> <br />
-					Email: <input type='email' name='email' onChange={this.handleChange} /><br />
-					Phone: <input type='phone' name='phone' onChange={this.handleChange} /><br />
+					Email: <input type='email' name='email' onChange={this.handleChange} />
+					<br />
+					Phone: <input type='phone' name='phone' onChange={this.handleChange} />
+					<br />
 					<button type='submit'>Submit</button>
 				</form>
 			</div>
