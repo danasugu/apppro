@@ -1,5 +1,6 @@
 // import { getDefaultNormalizer } from '@testing-library/react';
 import React, { Component } from 'react';
+import Student from './components/Student';
 
 class Post extends Component {
 	state = {
