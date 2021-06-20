@@ -51,6 +51,7 @@ class Post extends Component {
 				<form>
 					<input type='text' name='name' />
 					<input type='email' name='email' />
+					<input type="phone" name="phone" />
 				</form>
 			</div>
 		);
