@@ -75,7 +75,7 @@ class Post extends Component {
 				</form>
 				<br />
 				<Student name="Allen" email="allen@allen.com" phone="97614286321" />
-				<Student name="Redna" email="rdn@rdn.com" phone="97614286321" />
+				<Student name="Redna" email="rdn@rdn.com" phone="09253286333" />
 			</div>
 		);
 	}
