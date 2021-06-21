@@ -3,12 +3,13 @@ import { Component } from 'react';
 
 class Student extends Component {
 	render() {
+		const {name,email,phone} = this.props;
 		return (
 			<div>
 				<h1>Student Details</h1>
-				<p>Name: {this.props.name}</p>
-				<p>Email: {this.props.email}</p>
-				<p>Phone: {this.props.phone}</p>
+				<p>Name: {name}</p>
+				<p>Email: {email}</p>
+				<p>Phone: {phone}</p>
 			</div>
 		);
 	}
