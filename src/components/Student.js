@@ -6,9 +6,9 @@ class Student extends Component {
 		return (
 			<div>
 				<h1>Student Details</h1>
-				<p>Name: Mario</p>
-				<p>Email: mario@mario.com</p>
-				<p>Phone: 0987654321</p>
+				<p>Name: {this.props.name}</p>
+				<p>Email: {this.props.email}</p>
+				<p>Phone: {this.props.phone}</p>
 			</div>
 		);
 	}
