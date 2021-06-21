@@ -74,7 +74,7 @@ class Post extends Component {
 					<button type='submit'>Submit</button>
 				</form>
 				<br />
-				<Student />
+				<Student name="Allen" email="allen@allen.com" phone="97614286321"   />
 			</div>
 		);
 	}
