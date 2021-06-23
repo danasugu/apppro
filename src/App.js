@@ -10,13 +10,17 @@ import Employee from './components/Employee';
 
 class App() extends Component {
 	state = {
-		
+		employee:[
+			{id:1, name:'DS', email:"ds@ds.com, phone:0987654321"},
+			{id:2, name:'ASDDS', email:"asads@ds.com, phone:12327654321"},
+			{id:3, name:'GERDVC', email:"dsferdf@ds.com, phone:7165231321"}
+		]
 	}
-	render() 
-	{
+	render() {
 		return (
 		<div className='App'>
-			{/* <Post />
+			{
+			/* <Post />
 			<Teacher name="Peter" email="peter@seser.com" phone="098769887000" /> */}
 			<Employee />
 		</div>
