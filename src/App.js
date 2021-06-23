@@ -2,8 +2,8 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import Post from './components/Post';
-import Teacher from './components/Teacher';
+// import Post from './components/Post';
+// import Teacher from './components/Teacher';
 import Employee from './components/Employee';
 
 
