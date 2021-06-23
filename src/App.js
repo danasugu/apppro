@@ -10,8 +10,8 @@ import Employee from './components/Employee';
 function App() {
 	return (
 		<div className='App'>
-			<Post />
-			<Teacher name="Peter" email="peter@seser.com" phone="098769887000" />
+			{/* <Post />
+			<Teacher name="Peter" email="peter@seser.com" phone="098769887000" /> */}
 			<Employee />
 		</div>
 	);
