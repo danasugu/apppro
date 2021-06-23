@@ -21,8 +21,8 @@ class App() extends Component {
 		<div className='App'>
 			{
 			/* <Post />
-			<Teacher name="Peter" email="peter@seser.com" phone="098769887000" /> */}
-			<Employee />
+			<Teacher name="Peter" email="peter@seser.com" phone="098769887000" /> */
+			<Employee />}
 		</div>
 	);
 	}
