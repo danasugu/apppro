@@ -1,10 +1,11 @@
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 import React, {Component} from 'react';
 
 class Employee extends Component{
   render(){
     const employees = this.props.employees;
     const employeeList = employees.map(employee=>{
+        
         return(
           <div>
             <p>Name: {employee.name}</p>
